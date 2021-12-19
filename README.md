@@ -1,0 +1,2 @@
+# fuzzy
+Fuzzy logics project
