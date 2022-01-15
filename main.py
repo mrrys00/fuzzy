@@ -107,3 +107,29 @@ outputt.compute()
 print(outputt.output['duration'])
 output1_duration.view(sim=outputt)
 plt.show()
+
+########
+
+outputt.input['temperature'] = 3.1
+outputt.input['hardness'] = 7.7
+outputt.input['softening_factor'] = 1.0
+outputt.input['user_duration'] = 3.2
+
+outputt.compute()
+
+print(outputt.output['duration'])
+output1_duration.view(sim=outputt)
+plt.show()
+
+########
+
+outputt.input['temperature'] = 4.4
+outputt.input['hardness'] = 0.5
+outputt.input['softening_factor'] = 9.2
+outputt.input['user_duration'] = 5.2
+
+outputt.compute()
+
+print(outputt.output['duration'])
+output1_duration.view(sim=outputt)
+plt.show()
